@@ -1,0 +1,105 @@
+body {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    background-color: #271d45;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    margin: 1em;
+}
+
+
+/* header stuff here */
+
+header{
+    background-color: #271d45;
+}
+
+/* main stuff here */
+
+main {
+    background-color: #45337b;
+    border: #45337b;
+    border-radius: 10px;
+    border-width: 10px;
+}
+
+h1 {
+    color: #ffa403;
+    margin: 1em;
+}
+
+h2 {
+    color: #c1c7e7;
+    padding: 1em;
+}
+
+main a{
+    color: #ffa403;
+    padding: 1rem;
+}
+
+main p{
+    color: #c1c7e7;
+    margin: 1em;
+}
+
+main li{
+    color: #c1c7e7;
+}
+
+main dt {
+    color: #c1c7e7;
+    font-size: 20px;
+    font-weight: 400;
+    margin: .7em;
+}
+main dd {
+    color: #c1c7e7;
+    margin: 1em 10px;
+}
+
+/* nav stuff here */
+
+nav{
+    background-color: #45337b;
+    border: 1px solid #45337b;
+    border-radius: 10px;
+
+}
+nav a{
+    color: #ffa403;
+}
+
+nav ul{
+    list-style-type: square;
+    padding: .5rem 30px;
+}
+
+
+/* footer stuff here */
+footer{
+    background-color: #271d45;
+    color: #c1c7e7;
+}
+
+footer a{
+    color: #ffa403;
+}
+
+footer a:hover {
+    color: white;
+}
+
+
+
+
