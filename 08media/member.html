@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become A Member</title>
+    <meta name="author" content="Finn Price">
+    <meta name="description" content="A website about Pokemon Unite">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+
+    .flex-container{
+            
+            margin: 10px;
+            padding: 20px;
+            font-size: 48px;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+    </style>
+</head>
+<body>
+        
+    <header>
+        <img src="images/ResGuard.webp" alt="Logo">
+        <h1><span style="color:rgba(255, 166, 0, 0.959);">Unite ESports</span></h1> <!--Is this how to use span tags? Or should it be style?-->
+    </header>
+
+    <nav>
+        
+        <ul><li><a href="index.html">Home Page</a></li>
+        <li><a href="objectives.html">Objectives</a></li>
+        <li><a href="pokemon.html">Pokemon</a></li>
+        <li><a href="strats.html">Strats</a></li>
+        <li><a href="mechanics.html">Mechanics</a></li>
+        <li><a href="items.html">Items</a></li>
+        <li><a href="patchnotes.html">Patch Notes</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="member.html" class="active">Become A Member</a></li>
+        <li><a href="championship.html">World Championship</a></li></ul>
+    
+
+    </nav>
+    
+    <main>
+        <h1>Sign Up for Anouncements Regarding Pokemon Unite</h1> 
+
+        <form method="get" class="becomeMember" action="thanks.html">
+            <fieldset>
+                <legend>General Information</legend>
+                <label>First Name*<input type="text" name="firstname" required></label>
+                <label>Last Name*<input type="text" name="lastname" required></label>
+                <label>Email*<input type="text" name="emailaddress" required></label>
+                <label>Phone Number<input type="tel" name="phonenumber"></label>               
+            </fieldset>
+
+            <fieldset>
+                <legend>What do you Want to Hear About?</legend>
+                <label><input type="checkbox" name="Path Updates" value="chosen">Patch Updates</label>
+                <label><input type="checkbox" name="New Releases" value="chosen">New Releases</label>
+                <label><input type="checkbox" name="Upcoming Events" value="chosen">Upcoming Events</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>How Often do you Want Updates?</legend>
+                <label><input type="radio" name="frequency" value="yearly">Once Every Year</label>
+                <label><input type="radio" name="frequency" value="monthly">Once Every Month</label>
+                <label><input type="radio" name="frequency" value="biweekly">Two Times Every Month</label>
+                <label><input type="radio" name="frequency" value="weekly">Once Every Week</label>
+                <label><input type="radio" name="frequency" value="daily">Once Every Day</label>
+
+                <label>Time Zone<select name="timezone">
+                    <option value="Select a timezone">Select a Time zone</option>
+                    <option value="HST">Hawaii Standard Time</option>
+                    <option value="HDT">Hawaii-Aleutian Daylight Time</option>
+                    <option value="AKDT">Alaska Daylight Time</option>
+                    <option value="MST">Mountain Standard Time</option>
+                    <option value="MDT">Mountain Daylight Time</option>
+                    <option value="CDT">Central Daylight Time</option>
+                    <option value="EDT">Eastern Daylight Time</option>
+                
+                </select></label>
+            </fieldset>
+
+            <label>Issues with Membership
+                <textarea name="issues" placeholder="Please Include any Issues you are Having Regarding the Membership"></textarea>
+            </label>
+
+            <input type="submit" value="Become a Member">
+
+        </form>
+       
+        
+    </main>
+
+    <footer>
+<p> &copy; 2025 &bull; Finn Price &bull; Web Dev </p>
+ <address>
+            Unite ESports <br>
+            930 500 E, Heber City <br>
+            Utah, 84023 <br>
+            Call us at <a href="tel:8005551234">151-123-4567</a> to learn more<br> <!--Very real Phone Number-->
+        </address>
+    </footer>
+</body>
+</html>
