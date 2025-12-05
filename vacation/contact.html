@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Vacations</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Text:ital@0;1&family=Italianno&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+
+    .flex-container{
+            
+            margin: 10px;
+            padding: 20px;
+            font-size: 48px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <img src="images/vacalogo.webp" alt="Logo">
+        <h1>Budget Vacations</h1>
+    </header>
+
+    
+
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="vacations.html">Vacations</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+            <li><a href="thanks.html">thanks</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <main>
+        <h1>Contact Us</h1>
+        
+        <form method="get" class="vacationForm" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name*<input type="text" name="firstname" required></label>
+                <label>Last Name*<input type="text" name="lastname" required></label>
+                <label>Email*<input type="text" name="emailaddress" required></label>
+                <label>Phone Number<input type="tel" name="phonenumber"></label>               
+            </fieldset>
+
+            <fieldset>
+                <legend>What Kind of Vacation(s) do You Want?</legend>
+                <label><input type="checkbox" name="Alaska" value="chosen">Alaska</label>
+                <label><input type="checkbox" name="Belize" value="chosen">Belize</label>
+                <label><input type="checkbox" name="Hungary" value="chosen">Hungary</label>
+                <label><input type="checkbox" name="Norway" value="chosen">Norway</label>
+                <label><input type="checkbox" name="Poland" value="chosen">Poland</label>
+                <label><input type="checkbox" name="Thailand" value="chosen">Thailand</label>
+
+                <label>How Many People do You Have?<select name="numPeople" required>
+                    <option value="">Select Number of People</option>
+                    <option value="One">One Person</option>
+                    <option value="Two">Two People</option>
+                    <option value="Three">Three People</option>
+                    <option value="Four">Four People</option>
+                    <option value="Five">Five People</option>
+                    <option value="Six">Six People</option>
+                    <option value="SevenPlus">7+ People</option>
+                
+                </select></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>How Long do You Want to be on Vacation?</legend>
+                <label><input type="radio" name="frequency" value="oneDay">One Day</label>
+                <label><input type="radio" name="frequency" value="twoToFiveDays">Two to Five Days</label>
+                <label><input type="radio" name="frequency" value="sixToSevenDays">Six to Seven Days</label>
+                <label><input type="radio" name="frequency" value="twoWeeks">Two Weeks</label>
+                <label><input type="radio" name="frequency" value="oneMonth">One Month</label>
+
+                
+            </fieldset>
+
+            <label>Any Additional Thoughts, Wants, Needs, or Worries
+                <textarea name="issues" placeholder="Please Include Any Additional Thoughts, Wants, Needs, or Worries"></textarea>
+            </label>
+
+            <input type="submit" value="Plan My Vacation Now">
+
+        </form>
+
+    </main>
+
+
+
+    <footer>
+        <p> &copy; 2025 &bull; Finn Price &bull; Web Dev </p>
+ <address>
+            Budget Vacations <br>
+            Clearwater, Florida <br>
+            Call us at <a href="tel:8005551234">151-123-4567</a> to learn more<br> <!--Very real Phone Number-->
+        </address>
+    </footer>
+
+
+</body>
+</html>
